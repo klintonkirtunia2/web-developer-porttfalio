@@ -123,7 +123,7 @@ main section{
 .About{
     padding: 130px;
     border-radius: 10px;
-    background: #2f2b29;
+    background: #FFF8F3;
     margin: 130px 0px;
 }
 .about-info-container{
@@ -187,4 +187,33 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/* footer section */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130PX 200PX;
 
+}
+.social-link a{
+    margin-right: 24px;
+
+}
+.footer-column{
+  
+    gap: 100x;
+    width: 50%
+    
+}
+
+.Contact-form, input, textarea{
+
+    display: block;
+    margin: 25px;
+    padding: 18px 35px;
+    color: #000000;
+    border-radius: 5px;
+    
+    border: 0;
+
+}
